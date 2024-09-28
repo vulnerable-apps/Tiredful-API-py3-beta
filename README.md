@@ -50,6 +50,22 @@ docker run -p 8000:8000 --name tiredful -it tiredful
 
 Browse to `http://localhost:8000/` and you are all set.  Use `CTRL-C` to shut down the server.
 
+#### Docker Compose
+
+You can also spin up Tiredful API using Docker Compose.  Simply execute:
+
+```bash
+docker compose -f docker-compose-dev.yml up
+```
+
+The application files will refresh automatically when you make changes to the source code.  Use `CTRL-C` to shut down the server.
+
+If you want to run the application without refreshing the application files, execute:
+
+```bash
+docker-compose up -d
+```
+
 #### Python3 Compatible Code
 [Tiredful API Python3](https://github.com/siddharthbezalwar/Tiredful-API-py3-beta)
 
