@@ -3,7 +3,7 @@ certifi==2020.12.5
 cffi==1.14.5
 chardet==4.0.0
 cryptography==3.4.7
-Django==3.2
+Django==3.2.25
 django-oauth-toolkit==1.5.0
 djangorestframework==3.12.4
 gunicorn==22.0.0
